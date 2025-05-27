@@ -1,11 +1,11 @@
-# 🎬 2022 Movies Table (JavaScript Callback Demo)
+# 🎬 2023 Movies Table (JavaScript Callback Demo)
 This is a simple front-end JavaScript project that demonstrates the use of callback functions with delayed execution. The core functionality revolves around clicking the title, which after a 3-second delay, reveals a list of 11 movies with their genres and release dates.
 
 
 ## 🧩 Features
 - Click-based interaction on the table title
 - 3-second delay before displaying content (simulating asynchronous behavior)
-- Randomized or pre-defined movie data generation
+- Pre-defined movie data generation
 - Minimal and clean separation of HTML, CSS, and JavaScript
 - Great example for learning callbacks and dynamic DOM manipulation
 
@@ -18,7 +18,7 @@ This is a simple front-end JavaScript project that demonstrates the use of callb
   - After the delay, JavaScript dynamically inserts 10 rows into the table.
   - Each row includes:
     - Movie Title
-    - Releade date
+    - Release date
     - Genre
 
 
@@ -43,7 +43,3 @@ This is a simple front-end JavaScript project that demonstrates the use of callb
 - Open index.html in a web browser.
 - Click on the 2023 Movie Releases.
 - Wait 3 seconds, and the movie list will appear.
-
-
-## 📃 License
-MIT License – free to use, share, and modify.
