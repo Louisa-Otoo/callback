@@ -15,7 +15,7 @@ This is a simple front-end JavaScript project that demonstrates the use of callb
   - The table displays only the header: "2023 Movie Releases".
 - When the header is clicked:
   - A 3-second delay is triggered using setTimeout.
-  - After the delay, JavaScript dynamically inserts 10 rows into the table.
+  - After the delay, JavaScript dynamically inserts 11 rows into the table.
   - Each row includes:
     - Movie Title
     - Release date
