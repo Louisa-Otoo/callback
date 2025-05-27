@@ -60,7 +60,7 @@ function createTable() {
 
 
 
-//function to display the table with a 3-second delay
+//function to display the table with a 2-second delay
 function displayTableWithDelay() {
     setTimeout(()=>{
         createTableHeadings();
@@ -71,9 +71,10 @@ function displayTableWithDelay() {
 
 //Add an event listener to the header 
 const header = document.querySelector('.header');
-header.addEventListener('click', () => {
+header.addEventListener('click', function handleClick() {
     displayTableWithDelay();
+    header.removeEventListener('click', handleClick);
+});
 });
 
-});
 
